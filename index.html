@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>math object</title>
+</head>
+<body>
+    
+    <h1>JavaScript Math object</h1>
+    <p id="demo"></p>
+
+    <script>
+        
+        //Property
+        let x = Math.PI;
+        document.getElementById("demo").innerHTML = x;
+
+        //absolute
+        let num = Math.abs(4.0);
+        document.getElementById("demo").innerHTML = num;
+
+        //ceil
+        let num1 = Math.ceil(10.5);
+        document.getElementById("demo").innerHTML = num1;
+
+        //floor
+        let num2 = Math.floor(10.5);
+        document.getElementById("demo").innerHTML = num2;
+
+        //random
+        let num3 = Math.random();
+        let num4 = Math.floor(Math.random()*(100-1)+1);
+        document.getElementById("demo").innerHTML = num4;
+
+        //round
+        let num5 = Math.round(5.5);
+        document.getElementById("demo").innerHTML = num5;
+
+        //max
+        let num6 = Math.max(5,17,39,43,22);
+        document.getElementById("demo").innerHTML = num6;
+
+        //min
+        let num7 = Math.min(5,17,39,43,22);
+        document.getElementById("demo").innerHTML = num7;
+
+        //pow
+        let num8 = Math.pow(5,2);
+        document.getElementById("demo").innerHTML = num8;
+
+        //trunc
+        let num9 = Math.trunc(11.11);
+        document.getElementById("demo").innerHTML = num9;
+
+        //sqrt
+        let num10 = Math.sqrt(64);
+        document.getElementById("demo").innerHTML = num10;
+        
+    </script>
+
+</body>
+</html>
